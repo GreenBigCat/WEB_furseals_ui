@@ -92,28 +92,29 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+  
+  <script>
+        xhr = new XMLHttpRequest();
+        var url = "https://awwawwapp.herokuapp.com/v1/furseals";
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-type", "application/json");
 
-    <script>var xhr = new XMLHttpRequest();
-    var name, weight, height, country, hobby, lifestyle;
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                alert((xhr.responseText));
+            }
+        }
 
-    function postfs() {
-        name= document.getElementById("namefs");
-        weight= document.getElementById("weightfs");
-        height= document.getElementById("heightfs");
-        country= document.getElementById("countryfs");
-        hobby= document.getElementById("hobbyfs");
-        lifestyle= document.getElementById("lifestylefs");
-    }
-    var json = JSON.stringify({postfs});
+        function getTheValueById (id) {
+            var name_el = document.getElementById(id);
+            var name = name_el.value;
+            return name;
+        }
 
-    xhr.open("POST", '/submit', true);
-    xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+        var data = JSON.stringify({"height": getTheValueById('heightfs'), "name": getTheValueById('namefs'), "weight": getTheValueById('weightfs'), "lifestyle": getTheValueById('lsfs'), "hobby": getTheValueById('hobbyfs'), "country": getTheValueById('countryfs')});
 
-    //xhr.onreadystatechange = ...;//
-
-    // Отсылаем объект в формате JSON и с Content-Type application/json
-    // Сервер должен уметь такой Content-Type принимать и раскодировать
-    xhr.send(json);
+        xhr.send(data);
+    </script>
 
 
     <script src="../../dist/js/bootstrap.min.js"></script>

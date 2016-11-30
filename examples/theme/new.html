@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,79 +21,82 @@
     <!-- Custom styles for this template -->
     <link href="theme.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- Just for debuggin purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">FUR SEALS PROJECT</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li class="active"><a href=#new>NEW</a></li>
-                    <li><a href="list.html">LIST</a></li>
-                    <form class="navbar-form navbar-right">
-                        <input type="text" class="form-control" placeholder="Search...">
-                    </form>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">FUR SEALS PROJECT</a>
         </div>
-    </nav>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href=#new>NEW</a></li>
+                <li><a href="list.html">LIST</a></li>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
 
-    <form role="form">
-        <div class="form-group">
-            <h2 class="form-new-heading">Add your cute fur seal!</h2>
-            <input type="text" class="form-control" id="namefs" placeholder="Name">
+<form role="form">
+    <div class="form-group">
+        <h2 class="form-new-heading">Add your cute fur seal!</h2>
+        <input type="text" class="form-control" id="namefs" placeholder="Name">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="weightfs" placeholder="Weight">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="heightfs" placeholder="Height">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="countryfs" placeholder="Country">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="hobbyfs" placeholder="Hobby">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="lsfs" placeholder="Lifestyle">
+        <div class="btn-group btn-group-justified form-group">
+            <a onclick="AddFurseal()" href="#" class="btn btn-primary">Add</a>
         </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="weightfs" placeholder="Weight">
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="heightfs" placeholder="Height">
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="countryfs" placeholder="Country">
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="hobbyfs" placeholder="Hobby">
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="lsfs" placeholder="Lifestyle">
-            <div class="btn-group btn-group-justified form-group">
-                <a href="#" class="btn btn-primary">Add</a>
-            </div>
-        </div>
+    </div>
 
-    </form>
+</form>
 
-    </div> <!-- /container -->
+</div> <!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  
-  <script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script>
+    function AddFurseal() {
         xhr = new XMLHttpRequest();
         var url = "https://awwawwapp.herokuapp.com/v1/furseals";
         xhr.open("POST", url, true);
@@ -105,21 +108,28 @@
             }
         }
 
-        function getTheValueById (id) {
+        function getTheValueById(id) {
             var name_el = document.getElementById(id);
             var name = name_el.value;
             return name;
         }
 
-        var data = JSON.stringify({"height": getTheValueById('heightfs'), "name": getTheValueById('namefs'), "weight": getTheValueById('weightfs'), "lifestyle": getTheValueById('lsfs'), "hobby": getTheValueById('hobbyfs'), "country": getTheValueById('countryfs')});
-
+        var data = JSON.stringify({
+            "height": getTheValueById('heightfs'),
+            "name": getTheValueById('namefs'),
+            "weight": getTheValueById('weightfs'),
+            "lifestyle": getTheValueById('lsfs'),
+            "hobby": getTheValueById('hobbyfs'),
+            "country": getTheValueById('countryfs')
+        });
         xhr.send(data);
-    </script>
+    }
+</script>
 
 
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="../../assets/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>

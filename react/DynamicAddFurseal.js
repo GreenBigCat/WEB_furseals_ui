@@ -1,18 +1,25 @@
-var my_fs=response;
-console.log(my_fs+" jsx file");
+var my_fs = response;
 var CreateFurSealItem = React.createClass({
     propTypes: {
         data: React.PropTypes.shape({
-            id:React.PropTypes.number.isRequired,
+            id: React.PropTypes.number.isRequired,
             name: React.PropTypes.string.isRequired,
             country: React.PropTypes.string.isRequired
         })
+    },
+    getInitialState: function () {
+        return {
+            counter: 0
+        };
+    },
+    PageUpdate: function() {
+        alert(100);
+        // this.setState({counter: ++this.state.counter });
     },
     render: function () {
         var name = this.props.data.name,
             id = this.props.data.id,
             country = this.props.data.country;
-
         return (
             <div id="furSealItem" className="item  col-xs-4 col-lg-4">
                 <p className="invisible">{id}:</p>
@@ -42,10 +49,10 @@ var Content = React.createClass({
     },
     render: function () {
         var data = this.props.data;
-        var newsTemplate;
+        var fsTemplate;
 
         if (data.length > 0) {
-            newsTemplate = data.map(function (item, index) {
+            fsTemplate = data.map(function (item, index) {
                 return (
                     <div key={index}>
                         <CreateFurSealItem data={item}/>
@@ -53,12 +60,12 @@ var Content = React.createClass({
                 )
             })
         } else {
-            newsTemplate = <p>К сожалению морских котиков пока нет</p>
+            fsTemplate = <p>К сожалению морских котиков пока нет</p>
         }
 
         return (
             <div className='news'>
-                {newsTemplate}
+                {fsTemplate}
             </div>
         );
     }
@@ -73,8 +80,25 @@ var App = React.createClass({
         );
     }
 });
-
 ReactDOM.render(
     <App />,
     document.getElementById('products')
+);
+var PageSwitch = React.createClass({
+    render: function () {
+        return (
+            <div>
+                <li className="previous">
+                    <a href="#">Previous</a>
+                </li>
+                <li className="next">
+                    <a onClick={this.PageUpdate} href="#">Next</a>
+                </li>
+            </div>
+        );
+    }
+});
+ReactDOM.render(
+    <PageSwitch />,
+    document.getElementById('bottomButtons')
 );

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87bd295d-1a14-4b8d-b47a-646e5af386c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/js/GET.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react/DynamicAddFurseal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.congif.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.congif.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/js/GET.js" afterPath="$PROJECT_DIR$/examples/js/GET.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/theme/list.html" afterPath="$PROJECT_DIR$/examples/theme/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/theme/new.html" afterPath="$PROJECT_DIR$/examples/theme/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/DynamicAddFurseal.js" afterPath="$PROJECT_DIR$/react/DynamicAddFurseal.js" />
     </list>
     <ignored path="WORK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,51 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/theme/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/theme/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="218">
+              <caret line="28" column="80" lean-forward="true" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GET.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/js/GET.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.congif.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.congif.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicAddFurseal.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DynamicAddFurseal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react/DynamicAddFurseal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GET.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/js/GET.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -115,7 +95,6 @@
         <option value="$PROJECT_DIR$/examples/theme/list_one.html" />
         <option value="$PROJECT_DIR$/examples/theme/jstest.html" />
         <option value="$PROJECT_DIR$/examples/theme/index.html" />
-        <option value="$PROJECT_DIR$/examples/theme/new.html" />
         <option value="$PROJECT_DIR$/DynamicAddFurseal.js" />
         <option value="$PROJECT_DIR$/examples/theme/theme.css" />
         <option value="$PROJECT_DIR$/react/lib/react-global-master/lib/global.js" />
@@ -123,9 +102,10 @@
         <option value="$PROJECT_DIR$/webpack.congif.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/react/testReact.js" />
-        <option value="$PROJECT_DIR$/react/DynamicAddFurseal.js" />
-        <option value="$PROJECT_DIR$/examples/theme/list.html" />
+        <option value="$PROJECT_DIR$/examples/theme/new.html" />
         <option value="$PROJECT_DIR$/examples/js/GET.js" />
+        <option value="$PROJECT_DIR$/examples/theme/list.html" />
+        <option value="$PROJECT_DIR$/react/DynamicAddFurseal.js" />
       </list>
     </option>
   </component>
@@ -170,6 +150,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB_furseals_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB_furseals_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB_furseals_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB_furseals_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB_furseals_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB_furseals_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -184,7 +214,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-ru-tutorial-work_with_form" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -294,7 +324,7 @@
       <workItem from="1480508842125" duration="10652000" />
       <workItem from="1480528103443" duration="476000" />
       <workItem from="1480584090660" duration="134000" />
-      <workItem from="1480602605870" duration="1793000" />
+      <workItem from="1480602605870" duration="10667000" />
     </task>
     <task id="LOCAL-00001" summary="Working post+get">
       <created>1480509065345</created>
@@ -303,20 +333,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480509065345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Full GET">
+      <created>1480604445877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480604445877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109309000" />
+    <option name="totallyTimeSpent" value="118183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2544643" sideWeight="0.49086758" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -329,7 +367,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -349,7 +386,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working post+get" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working post+get" />
+    <MESSAGE value="Full GET" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full GET" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -549,25 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/theme/new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="9" lean-forward="false" selection-start-line="110" selection-start-column="7" selection-end-line="114" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/theme/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/DynamicAddFurseal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.congif.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -646,18 +661,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/theme/list.html">
+    <entry file="file://$PROJECT_DIR$/examples/theme/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/theme/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="86" column="10" lean-forward="true" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/js/GET.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/theme/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="28" column="80" lean-forward="true" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/DynamicAddFurseal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding />
         </state>
       </provider>

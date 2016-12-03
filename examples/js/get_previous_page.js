@@ -1,6 +1,5 @@
-page=0;
-GetPage();
-function GetPage(){
+function GetPreviousPage(){
+    page--;
     xhr = new XMLHttpRequest();
     var url = "https://awwawwapp.herokuapp.com/v1/furseals?size=6&page="+page;
     xhr.open("GET", url, true);

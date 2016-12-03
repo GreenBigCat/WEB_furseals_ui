@@ -8,24 +8,21 @@ var DrawPage = function () {
                 country: React.PropTypes.string.isRequired
             })
         },
-        componentWillReceiveProp:{
-
-        },
         render: function () {
             var name = this.props.data.name,
                 id = this.props.data.id,
                 country = this.props.data.country;
             return (
                 <div id="furSealItem" className="item  col-xs-4 col-lg-4">
-                    <p className="invisible">{id}:</p>
+                    <p className="invisible">{id}</p>
                     <div className="thumbnail">
                         <img className="group list-group-image" src="../../assets/img/mimimi3.jpg"
                              alt="http://placehold.it/400x250/000/fff"/>
                         <div className="caption">
-                            <h2 className="group inner list-group-item-heading">{name}:</h2>
+                            <h2 className="group inner list-group-item-heading">{name}</h2>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
-                                    <p className="lead">{country}:</p>
+                                    <p className="lead">{country}</p>
                                 </div>
                                 <div className="col-xs-3 col-md-2">
                                     <a className="btn btn-success" href="list_one.html">Choose</a>
@@ -59,7 +56,7 @@ var DrawPage = function () {
             }
 
             return (
-                <div className='news'>
+                <div>
                     {fsTemplate}
                 </div>
             );
@@ -69,7 +66,7 @@ var DrawPage = function () {
     var App = React.createClass({
         render: function () {
             return (
-                <div className='app'>
+                <div>
                     <Content data={my_fs}/>
                 </div>
             );

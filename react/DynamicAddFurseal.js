@@ -10,22 +10,26 @@ var DrawPage = function () {
         },
         render: function () {
             var name = this.props.data.name,
-                id = this.props.data.id,
                 country = this.props.data.country;
             return (
                 <div id="furSealItem" className="item  col-xs-4 col-lg-4">
-                    <p className="invisible">{id}</p>
                     <div className="thumbnail">
                         <img className="group list-group-image" src="../../assets/img/mimimi3.jpg"
                              alt="http://placehold.it/400x250/000/fff"/>
                         <div className="caption">
-                            <h2 className="group inner list-group-item-heading">{name}</h2>
+                            <h2 id="fursealName" className="group inner list-group-item-heading">{name}</h2>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
                                     <p className="lead">{country}</p>
                                 </div>
                                 <div className="col-xs-3 col-md-2">
-                                    <a className="btn btn-success" href="list_one.html">Choose</a>
+                                    <a className="btn btn-success" href="list_one.html"
+                                       onClick={
+                                           function () {
+                                               sessionStorage.setItem('fsName', name);
+                                           }
+                                       }
+                                    >Choose</a>
                                 </div>
                             </div>
                         </div>
@@ -77,10 +81,9 @@ var DrawPage = function () {
         document.getElementById('products')
     );
 };
-var GoToNextPage = function  () {
+var GoToNextPage = function () {
     GetNextPage();
     setInterval(DrawPage, 500);
-
 };
 var GoToPrevious = function () {
     GetPreviousPage();

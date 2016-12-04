@@ -11,4 +11,4 @@ function GetPage(){
             response = JSON.parse(xhr.responseText)[0]["content"];
         }
     };
-}
+};

@@ -23,4 +23,5 @@ function AddFurseal() {
         "country": getTheValueById('countryfs')
     });
     xhr.send(data);
+    //setInterval(window.location.href = 'list.html',500);
 }

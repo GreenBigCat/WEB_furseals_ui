@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87bd295d-1a14-4b8d-b47a-646e5af386c1" name="Default" comment="repaired post">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/js/add_furseal.js" />
+    <list default="true" id="87bd295d-1a14-4b8d-b47a-646e5af386c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/js/delete_furseal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/js/add_furseal.js" afterPath="$PROJECT_DIR$/examples/js/add_furseal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/js/get_one.js" afterPath="$PROJECT_DIR$/examples/js/get_one.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/theme/list_one.html" afterPath="$PROJECT_DIR$/examples/theme/list_one.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/theme/new.html" afterPath="$PROJECT_DIR$/examples/theme/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/DynamicAddFurseal.js" afterPath="$PROJECT_DIR$/react/DynamicAddFurseal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/ShowFursealData.js" afterPath="$PROJECT_DIR$/react/ShowFursealData.js" />
     </list>
     <ignored path="WORK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,18 +35,8 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/theme/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_one.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/theme/list_one.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -52,8 +45,18 @@
       <file leaf-file-name="new.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/theme/new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GET.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/js/GET.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -62,18 +65,28 @@
       <file leaf-file-name="DynamicAddFurseal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react/DynamicAddFurseal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="-1201">
+              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_one.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/js/get_one.js">
+      <file leaf-file-name="ShowFursealData.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/ShowFursealData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="261">
+              <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_furseal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/js/delete_furseal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -99,6 +112,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,13 +139,14 @@
         <option value="$PROJECT_DIR$/examples/js/get_next_page.js" />
         <option value="$PROJECT_DIR$/react/lib/ShowFursealData.js" />
         <option value="$PROJECT_DIR$/examples/theme/list.html" />
-        <option value="$PROJECT_DIR$/react/ShowFursealData.js" />
         <option value="$PROJECT_DIR$/examples/js/GET.js" />
-        <option value="$PROJECT_DIR$/examples/theme/list_one.html" />
-        <option value="$PROJECT_DIR$/examples/js/add_furseal.js" />
         <option value="$PROJECT_DIR$/examples/theme/new.html" />
+        <option value="$PROJECT_DIR$/examples/js/add_furseal.js" />
+        <option value="$PROJECT_DIR$/examples/theme/list_one.html" />
         <option value="$PROJECT_DIR$/react/DynamicAddFurseal.js" />
+        <option value="$PROJECT_DIR$/examples/js/delete_furseal.js" />
         <option value="$PROJECT_DIR$/examples/js/get_one.js" />
+        <option value="$PROJECT_DIR$/react/ShowFursealData.js" />
       </list>
     </option>
   </component>
@@ -422,7 +437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136564000" />
+    <option name="totallyTimeSpent" value="140827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -451,6 +466,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -478,13 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/blog/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2303">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -684,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/theme/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/js/get_previous_page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -721,40 +740,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/theme/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/ShowFursealData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="131" column="37" lean-forward="true" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/theme/list_one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/js/add_furseal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/theme/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/js/add_furseal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/theme/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/js/get_one.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/theme/list_one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -762,23 +789,31 @@
     <entry file="file://$PROJECT_DIR$/examples/js/GET.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/js/delete_furseal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react/DynamicAddFurseal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="-1201">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/js/get_one.js">
+    <entry file="file://$PROJECT_DIR$/react/ShowFursealData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="261">
+          <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding />
         </state>
       </provider>

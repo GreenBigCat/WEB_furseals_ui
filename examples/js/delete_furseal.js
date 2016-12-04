@@ -1,13 +1,14 @@
-function GetOneFurseal() {
+function DeleteFurseal() {
     var fursealId = sessionStorage.getItem('fsId');
     xhr = new XMLHttpRequest();
     var url = "https://awwawwapp.herokuapp.com/v1/furseals/" + fursealId;
-    xhr.open("GET", url, true);
+    xhr.open("DELETE", url, false);
     xhr.setRequestHeader("Content-type", "application/json");
     xhr.send(null);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            fursealData = JSON.parse(xhr.responseText);
+            console.log("deleted");
         }
     };
 }
+

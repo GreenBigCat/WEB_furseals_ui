@@ -1,5 +1,6 @@
 var DrawAll = function () {
-    var fsData = fursealData;
+    var fsData=[];
+    fsData.push(fursealData);
     var CreateFurSealData = React.createClass({
         propTypes: {
             data: React.PropTypes.shape({
@@ -121,7 +122,7 @@ var DrawAll = function () {
     var DrawName = React.createClass({
         render: function () {
             return (
-                <div className='app'>
+                <div >
                     <Name data={fsData}/>
                 </div>
             );

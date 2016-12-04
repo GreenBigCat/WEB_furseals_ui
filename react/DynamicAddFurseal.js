@@ -10,9 +10,11 @@ var DrawPage = function () {
         },
         render: function () {
             var name = this.props.data.name,
+                id = this.props.data.id,
                 country = this.props.data.country;
             return (
                 <div id="furSealItem" className="item  col-xs-4 col-lg-4">
+                    <p className="invisible">{id}</p>
                     <div className="thumbnail">
                         <img className="group list-group-image" src="../../assets/img/mimimi3.jpg"
                              alt="http://placehold.it/400x250/000/fff"/>
@@ -26,7 +28,7 @@ var DrawPage = function () {
                                     <a className="btn btn-success" href="list_one.html"
                                        onClick={
                                            function () {
-                                               sessionStorage.setItem('fsName', name);
+                                               sessionStorage.setItem('fsId', id);
                                            }
                                        }
                                     >Choose</a>
@@ -77,7 +79,8 @@ var DrawPage = function () {
         }
     });
     ReactDOM.render(
-        <App />,
+        <App />
+        ,
         document.getElementById('products')
     );
 };
@@ -105,6 +108,7 @@ var PageSwitch = React.createClass({
     }
 });
 ReactDOM.render(
-    <PageSwitch />,
+    <PageSwitch />
+    ,
     document.getElementById('bottomButtons')
 );

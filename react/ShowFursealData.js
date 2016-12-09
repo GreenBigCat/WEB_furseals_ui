@@ -22,7 +22,7 @@ var DrawAll = function () {
             return (
                 <div>
                     <ul className="list-group">
-                        <li className="list-group-item"> Номер: {id}</li>
+                        <li className="list-group-item">Номер: {id}</li>
                         <li className="list-group-item"> Страна: {country}</li>
                         <li className="list-group-item"> Вес: {weight}</li>
                         <li className="list-group-item"> Рост: {height}</li>

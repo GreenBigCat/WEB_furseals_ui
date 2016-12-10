@@ -92,7 +92,7 @@ var GoToPrevious = function () {
     GetPreviousPage();
     setInterval(DrawPage, 500);
 };
-setInterval(DrawPage, 1000); //хуевое решение, надо timeout сервера
+setInterval(DrawPage, 500); //хуевое решение, надо timeout
 var PageSwitch = React.createClass({
     render: function () {
         return (

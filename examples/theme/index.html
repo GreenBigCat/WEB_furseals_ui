@@ -20,9 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="theme.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]>
+    <script src="../js/search.js" type="text/javascript"></script>
     <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
@@ -48,8 +46,8 @@
                 <li class="active"><a href="#home">HOME</a></li>
                 <li><a href="new.html">NEW</a></li>
                 <li><a href="list.html">LIST</a></li>
-                <form class="navbar-form navbar-right">
-                    <input type="text" class="form-control" placeholder="Search...">
+                <form class="navbar-form navbar-right" onclick="SearchFursealByName()">
+                    <textarea id="search_bar" class="form-control" placeholder="Search..."></textarea>
                 </form>
             </ul>
         </div>
